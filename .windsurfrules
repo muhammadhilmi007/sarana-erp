@@ -1,0 +1,193 @@
+# Local Rules for Samudra Paket ERP
+
+## Overview
+
+These local rules provide specific guidelines for development practices, coding standards, and workflows for the Samudra Paket ERP project. They complement the global and project rules by focusing on day-to-day development activities and local environment setup.
+
+## Development Environment Setup
+
+### Required Software
+
+- **Node.js**: Version 18.x LTS
+- **npm**: Version 10.x
+- **Docker**: Version 24.x and Docker Compose 2.x
+- **MongoDB**: Local installation (or Docker container) for development
+- **Redis**: Local installation (or Docker container) for caching
+- **Git**: Latest version with Git LFS support
+- **Visual Studio Code**: Latest version with recommended extensions
+
+### Recommended VS Code Extensions
+
+- ESLint
+- Prettier
+- Tailwind CSS IntelliSense
+- MongoDB for VS Code
+- Docker
+- GitLens
+- REST Client
+- Jest Runner
+- React Developer Tools
+- TypeScript Hero
+
+### Local Environment Configuration
+
+- Use `.env.local` for local environment variables (never commit to repository)
+- Configure local MongoDB instance on default port (27017)
+- Configure local Redis instance on default port (6379)
+- Set up local RabbitMQ instance for message queue testing
+- Configure local file storage directory for development
+
+## Workflow Guidelines
+
+### Git Workflow
+
+- Use feature branches for all new features and bug fixes
+- Branch naming convention: `feature/feature-name`, `bugfix/issue-description`, `hotfix/urgent-fix`
+- Commit messages must follow Conventional Commits specification:
+  - `feat: add new feature`
+  - `fix: resolve bug`
+  - `docs: update documentation`
+  - `style: formatting changes`
+  - `refactor: code restructuring`
+  - `test: add or update tests`
+  - `chore: maintenance tasks`
+- Squash commits before merging to main branch
+- Require code reviews for all pull requests
+- Run linting and tests locally before pushing
+
+### Code Review Process
+
+- All code changes require at least one reviewer approval
+- Use pull request templates for consistent information
+- Focus reviews on:
+  - Code quality and adherence to standards
+  - Test coverage and quality
+  - Performance considerations
+  - Security implications
+  - Documentation completeness
+- Address all review comments before merging
+
+### Testing Standards
+
+- Write unit tests for all new functionality
+- Maintain minimum 80% code coverage
+- Run tests locally before committing
+- Include integration tests for API endpoints
+- Write end-to-end tests for critical user flows
+- Test for accessibility compliance
+
+## Coding Standards
+
+### JavaScript/TypeScript
+
+- Use ES2022 features for JavaScript
+- Use TypeScript for mobile application and shared libraries
+- Follow Airbnb JavaScript Style Guide
+- Use async/await for asynchronous operations (avoid callbacks)
+- Implement proper error handling for all async operations
+- Use destructuring for object and array access
+- Prefer const over let, avoid var
+- Use optional chaining and nullish coalescing operators
+- Document functions with JSDoc comments
+
+### React/Next.js
+
+- Use functional components with hooks
+- Implement proper React key usage for lists
+- Use React.memo for performance optimization when appropriate
+- Implement error boundaries for component error handling
+- Use Next.js Image component for all images
+- Implement proper loading states for data fetching
+- Use dynamic imports for code splitting
+- Implement proper SEO metadata for pages
+
+### CSS/Tailwind
+
+- Use Tailwind utility classes for styling
+- Follow mobile-first approach for responsive design
+- Maintain consistent spacing and sizing
+- Use CSS variables for theme customization
+- Implement dark mode support
+- Use Tailwind's JIT mode for development
+- Extract common patterns to component classes
+
+### API Development
+
+- Follow RESTful API design principles
+- Implement consistent error response format
+- Use proper HTTP status codes
+- Implement request validation with Joi or Zod
+- Document all endpoints with Swagger/OpenAPI
+- Implement rate limiting for public endpoints
+- Use proper authentication and authorization
+- Implement pagination for list endpoints
+- Use query parameters for filtering and sorting
+
+## Local Development Practices
+
+### Performance Optimization
+
+- Use React DevTools Profiler for component performance analysis
+- Implement memoization for expensive calculations
+- Optimize database queries for local development
+- Use indexing for frequently queried fields
+- Implement proper caching strategies
+- Monitor bundle size with webpack-bundle-analyzer
+- Optimize images and assets before committing
+
+### Debugging Techniques
+
+- Use Chrome DevTools for frontend debugging
+- Implement proper logging with different log levels
+- Use debugger statements for complex logic
+- Utilize VS Code debugging for Node.js applications
+- Use React DevTools for component inspection
+- Implement error tracking for local development
+- Use MongoDB Compass for database inspection
+
+### Documentation
+
+- Document all code with JSDoc comments
+- Update README files for each module
+- Document API changes in Swagger/OpenAPI
+- Create diagrams for complex workflows
+- Document database schema changes
+- Maintain up-to-date environment setup instructions
+- Document testing strategies and procedures
+
+## Local Quality Assurance
+
+### Code Quality Tools
+
+- Run ESLint for code quality enforcement
+- Use Prettier for code formatting
+- Implement pre-commit hooks with Husky
+- Run lint-staged for staged files
+- Use TypeScript for type checking
+- Run SonarQube locally for code quality analysis
+- Implement git hooks for commit message validation
+
+### Accessibility Testing
+
+- Use axe DevTools for accessibility testing
+- Test keyboard navigation for all interactive elements
+- Ensure proper color contrast for all text
+- Implement proper ARIA attributes
+- Test with screen readers
+- Validate HTML semantics
+- Test focus management for interactive components
+
+### Security Best Practices
+
+- Never store sensitive information in code
+- Use environment variables for secrets
+- Implement proper input validation
+- Sanitize user inputs to prevent XSS
+- Use parameterized queries to prevent injection
+- Implement proper authentication and authorization
+- Follow least privilege principle
+- Conduct regular security code reviews
+
+## Reference
+For more detailed information, refer to the Project Requirements Document which contains implementation details at:
+`d:\PROJECT\sarana-app\documentation`

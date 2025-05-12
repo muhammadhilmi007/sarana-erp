@@ -1,0 +1,137 @@
+2025-05-12 19:31:08:318 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:31:08:318 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:31:08:318 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:31:08:318 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:31:09:319 [info]: Auth Service running on port 3001 
+2025-05-12 19:31:09:319 [info]: Redis reconnecting in 1000ms (attempt 0) 
+2025-05-12 19:31:09:319 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:31:09:319 [info]: Connected to MongoDB 
+2025-05-12 19:31:10:3110 [info]: Redis client reconnecting 
+2025-05-12 19:31:10:3110 [info]: Redis reconnecting in 2000ms (attempt 1) 
+2025-05-12 19:31:10:3110 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:31:12:3112 [info]: Redis client reconnecting 
+2025-05-12 19:31:12:3112 [info]: Redis reconnecting in 4000ms (attempt 2) 
+2025-05-12 19:31:12:3112 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:31:16:3116 [info]: Redis client reconnecting 
+2025-05-12 19:31:16:3116 [info]: Redis reconnecting in 8000ms (attempt 3) 
+2025-05-12 19:31:16:3116 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:31:20:3120 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:31:20:3120 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:31:20:3120 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:31:20:3120 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:31:20:3120 [info]: Auth Service running on port 3001 
+2025-05-12 19:31:20:3120 [info]: Redis reconnecting in 1000ms (attempt 0) 
+2025-05-12 19:31:20:3120 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:31:20:3120 [info]: Connected to MongoDB 
+2025-05-12 19:31:21:3121 [info]: Redis client reconnecting 
+2025-05-12 19:31:21:3121 [info]: Redis reconnecting in 2000ms (attempt 1) 
+2025-05-12 19:31:21:3121 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:31:23:3123 [info]: Redis client reconnecting 
+2025-05-12 19:31:23:3123 [info]: Redis reconnecting in 4000ms (attempt 2) 
+2025-05-12 19:31:23:3123 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:31:27:3127 [info]: Redis client reconnecting 
+2025-05-12 19:31:27:3127 [info]: Redis reconnecting in 8000ms (attempt 3) 
+2025-05-12 19:31:27:3127 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:31:35:3135 [info]: Redis client reconnecting 
+2025-05-12 19:31:35:3135 [info]: Redis reconnecting in 10000ms (attempt 4) 
+2025-05-12 19:31:35:3135 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:31:45:3145 [info]: Redis client reconnecting 
+2025-05-12 19:31:45:3145 [info]: Redis reconnecting in 10000ms (attempt 5) 
+2025-05-12 19:31:45:3145 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:31:52:3152 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:31:52:3152 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:31:52:3152 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:31:52:3152 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:31:53:3153 [info]: Auth Service running on port 3001 
+2025-05-12 19:31:53:3153 [info]: Redis reconnecting in 1000ms (attempt 0) 
+2025-05-12 19:31:53:3153 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:31:53:3153 [info]: Connected to MongoDB 
+2025-05-12 19:31:54:3154 [info]: Redis client reconnecting 
+2025-05-12 19:31:54:3154 [info]: Redis reconnecting in 2000ms (attempt 1) 
+2025-05-12 19:31:54:3154 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:31:56:3156 [info]: Redis client reconnecting 
+2025-05-12 19:31:56:3156 [info]: Redis reconnecting in 4000ms (attempt 2) 
+2025-05-12 19:31:56:3156 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:32:00:320 [info]: Redis client reconnecting 
+2025-05-12 19:32:00:320 [info]: Redis reconnecting in 8000ms (attempt 3) 
+2025-05-12 19:32:00:320 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:32:08:328 [info]: Redis client reconnecting 
+2025-05-12 19:32:08:328 [info]: Redis reconnecting in 10000ms (attempt 4) 
+2025-05-12 19:32:08:328 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:32:12:3212 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:32:12:3212 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:32:12:3212 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:32:12:3212 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:32:13:3213 [info]: Auth Service running on port 3001 
+2025-05-12 19:32:13:3213 [info]: Redis reconnecting in 1000ms (attempt 0) 
+2025-05-12 19:32:13:3213 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:32:13:3213 [info]: Connected to MongoDB 
+2025-05-12 19:32:14:3214 [info]: Redis client reconnecting 
+2025-05-12 19:32:14:3214 [info]: Redis reconnecting in 2000ms (attempt 1) 
+2025-05-12 19:32:14:3214 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:32:16:3216 [info]: Redis client reconnecting 
+2025-05-12 19:32:16:3216 [info]: Redis reconnecting in 4000ms (attempt 2) 
+2025-05-12 19:32:16:3216 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:32:20:3220 [info]: Redis client reconnecting 
+2025-05-12 19:32:20:3220 [info]: Redis reconnecting in 8000ms (attempt 3) 
+2025-05-12 19:32:20:3220 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:32:28:3228 [info]: Redis client reconnecting 
+2025-05-12 19:32:28:3228 [info]: Redis reconnecting in 10000ms (attempt 4) 
+2025-05-12 19:32:28:3228 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:32:33:3233 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:32:33:3233 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:32:33:3233 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:32:33:3233 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:32:34:3234 [info]: Auth Service running on port 3001 
+2025-05-12 19:32:34:3234 [info]: Redis reconnecting in 1000ms (attempt 0) 
+2025-05-12 19:32:34:3234 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:32:34:3234 [info]: Connected to MongoDB 
+2025-05-12 19:32:35:3235 [info]: Redis client reconnecting 
+2025-05-12 19:32:35:3235 [info]: Redis reconnecting in 2000ms (attempt 1) 
+2025-05-12 19:32:35:3235 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:32:37:3237 [info]: Redis client reconnecting 
+2025-05-12 19:32:37:3237 [info]: Redis reconnecting in 4000ms (attempt 2) 
+2025-05-12 19:32:37:3237 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:32:41:3241 [info]: Redis client reconnecting 
+2025-05-12 19:32:41:3241 [info]: Redis reconnecting in 8000ms (attempt 3) 
+2025-05-12 19:32:41:3241 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:32:49:3249 [info]: Redis client reconnecting 
+2025-05-12 19:32:49:3249 [info]: Redis reconnecting in 10000ms (attempt 4) 
+2025-05-12 19:32:49:3249 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:32:59:3259 [info]: Redis client reconnecting 
+2025-05-12 19:32:59:3259 [info]: Redis reconnecting in 10000ms (attempt 5) 
+2025-05-12 19:32:59:3259 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:33:03:333 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:33:03:333 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:33:03:333 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:33:03:333 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:33:04:334 [info]: Auth Service running on port 3001 
+2025-05-12 19:33:04:334 [info]: Redis reconnecting in 1000ms (attempt 0) 
+2025-05-12 19:33:04:334 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:33:04:334 [info]: Connected to MongoDB 
+2025-05-12 19:33:05:335 [info]: Redis client reconnecting 
+2025-05-12 19:33:05:335 [info]: Redis reconnecting in 2000ms (attempt 1) 
+2025-05-12 19:33:05:335 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:33:07:337 [info]: Redis client reconnecting 
+2025-05-12 19:33:07:337 [info]: Redis reconnecting in 4000ms (attempt 2) 
+2025-05-12 19:33:07:337 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:33:12:3312 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:33:12:3312 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:33:12:3312 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:33:12:3312 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 19:33:12:3312 [info]: Auth Service running on port 3001 
+2025-05-12 19:33:12:3312 [info]: Redis reconnecting in 1000ms (attempt 0) 
+2025-05-12 19:33:12:3312 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:33:12:3312 [info]: Connected to MongoDB 
+2025-05-12 19:33:13:3313 [info]: Redis client reconnecting 
+2025-05-12 19:33:13:3313 [info]: Redis reconnecting in 2000ms (attempt 1) 
+2025-05-12 19:33:13:3313 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:33:15:3315 [info]: Redis client reconnecting 
+2025-05-12 19:33:15:3315 [info]: Redis reconnecting in 4000ms (attempt 2) 
+2025-05-12 19:33:15:3315 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:33:19:3319 [info]: Redis client reconnecting 
+2025-05-12 19:33:19:3319 [info]: Redis reconnecting in 8000ms (attempt 3) 
+2025-05-12 19:33:19:3319 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 19:33:27:3327 [info]: Redis client reconnecting 
+2025-05-12 19:33:27:3327 [info]: Redis reconnecting in 10000ms (attempt 4) 
+2025-05-12 19:33:27:3327 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
