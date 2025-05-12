@@ -19,6 +19,7 @@ const redis = require('./utils/redis');
 
 // Import routes
 const branchRoutes = require('./routes/branchRoutes');
+const serviceAreaRoutes = require('./routes/serviceAreaRoutes');
 
 // Initialize Express app
 const app = express();
@@ -428,6 +429,316 @@ const swaggerOptions = {
             },
           },
         },
+        // Service Area Schemas
+        ServiceAreaCreate: {
+          type: 'object',
+          required: ['name', 'code', 'boundaries', 'center'],
+          properties: {
+            name: {
+              type: 'string',
+              description: 'Service area name',
+              example: 'Bandung City Coverage',
+            },
+            code: {
+              type: 'string',
+              description: 'Service area code',
+              example: 'BDG-AREA-001',
+            },
+            description: {
+              type: 'string',
+              description: 'Service area description',
+              example: 'Coverage area for Bandung city center',
+            },
+            boundaries: {
+              type: 'object',
+              required: ['type', 'coordinates'],
+              properties: {
+                type: {
+                  type: 'string',
+                  enum: ['Polygon'],
+                  description: 'GeoJSON geometry type',
+                  example: 'Polygon',
+                },
+                coordinates: {
+                  type: 'array',
+                  description: 'GeoJSON coordinates array',
+                  example: [[[
+                    107.5900, -6.9000,
+                    107.6200, -6.9000,
+                    107.6200, -6.9300,
+                    107.5900, -6.9300,
+                    107.5900, -6.9000
+                  ]]],
+                },
+              },
+            },
+            center: {
+              type: 'object',
+              required: ['type', 'coordinates'],
+              properties: {
+                type: {
+                  type: 'string',
+                  enum: ['Point'],
+                  description: 'GeoJSON geometry type',
+                  example: 'Point',
+                },
+                coordinates: {
+                  type: 'array',
+                  description: 'GeoJSON coordinates array [longitude, latitude]',
+                  example: [107.6097, -6.9147],
+                },
+              },
+            },
+            coverageRadius: {
+              type: 'number',
+              description: 'Coverage radius in kilometers',
+              example: 5,
+            },
+            type: {
+              type: 'string',
+              enum: ['delivery', 'pickup', 'both'],
+              description: 'Service area type',
+              example: 'both',
+            },
+            branches: {
+              type: 'array',
+              description: 'Assigned branches',
+              items: {
+                type: 'object',
+                properties: {
+                  branchId: {
+                    type: 'string',
+                    description: 'Branch ID',
+                    example: '60d21b4667d0d8992e610c85',
+                  },
+                  isPrimary: {
+                    type: 'boolean',
+                    description: 'Is primary branch for this area',
+                    example: true,
+                  },
+                },
+              },
+            },
+            pricing: {
+              type: 'object',
+              properties: {
+                basePrice: {
+                  type: 'number',
+                  description: 'Base price for delivery in this area',
+                  example: 10000,
+                },
+                pricePerKm: {
+                  type: 'number',
+                  description: 'Price per kilometer',
+                  example: 2000,
+                },
+                minimumDistance: {
+                  type: 'number',
+                  description: 'Minimum distance in kilometers',
+                  example: 1,
+                },
+                maximumDistance: {
+                  type: 'number',
+                  description: 'Maximum distance in kilometers',
+                  example: 20,
+                },
+                specialRates: {
+                  type: 'array',
+                  description: 'Special rates for specific conditions',
+                  items: {
+                    type: 'object',
+                    properties: {
+                      name: {
+                        type: 'string',
+                        description: 'Special rate name',
+                        example: 'Weekend Rate',
+                      },
+                      description: {
+                        type: 'string',
+                        description: 'Special rate description',
+                        example: 'Higher rate for weekend deliveries',
+                      },
+                      rate: {
+                        type: 'number',
+                        description: 'Rate amount',
+                        example: 15000,
+                      },
+                      conditions: {
+                        type: 'object',
+                        description: 'Conditions for applying this rate',
+                        example: { days: ['saturday', 'sunday'] },
+                      },
+                    },
+                  },
+                },
+              },
+            },
+            status: {
+              type: 'string',
+              enum: ['active', 'inactive', 'pending'],
+              description: 'Service area status',
+              example: 'active',
+            },
+          },
+        },
+        ServiceAreaUpdate: {
+          type: 'object',
+          properties: {
+            name: {
+              type: 'string',
+              description: 'Service area name',
+              example: 'Bandung City Coverage Updated',
+            },
+            description: {
+              type: 'string',
+              description: 'Service area description',
+              example: 'Updated coverage area for Bandung city center',
+            },
+            boundaries: {
+              type: 'object',
+              properties: {
+                type: {
+                  type: 'string',
+                  enum: ['Polygon'],
+                  description: 'GeoJSON geometry type',
+                  example: 'Polygon',
+                },
+                coordinates: {
+                  type: 'array',
+                  description: 'GeoJSON coordinates array',
+                  example: [[[
+                    107.5800, -6.8900,
+                    107.6300, -6.8900,
+                    107.6300, -6.9400,
+                    107.5800, -6.9400,
+                    107.5800, -6.8900
+                  ]]],
+                },
+              },
+            },
+            center: {
+              type: 'object',
+              properties: {
+                type: {
+                  type: 'string',
+                  enum: ['Point'],
+                  description: 'GeoJSON geometry type',
+                  example: 'Point',
+                },
+                coordinates: {
+                  type: 'array',
+                  description: 'GeoJSON coordinates array [longitude, latitude]',
+                  example: [107.6097, -6.9147],
+                },
+              },
+            },
+            coverageRadius: {
+              type: 'number',
+              description: 'Coverage radius in kilometers',
+              example: 6,
+            },
+            type: {
+              type: 'string',
+              enum: ['delivery', 'pickup', 'both'],
+              description: 'Service area type',
+              example: 'both',
+            },
+            status: {
+              type: 'string',
+              enum: ['active', 'inactive', 'pending'],
+              description: 'Service area status',
+              example: 'active',
+            },
+          },
+        },
+        ServiceAreaStatus: {
+          type: 'object',
+          required: ['status'],
+          properties: {
+            status: {
+              type: 'string',
+              enum: ['active', 'inactive', 'pending'],
+              description: 'Service area status',
+              example: 'inactive',
+            },
+            reason: {
+              type: 'string',
+              description: 'Reason for status change',
+              example: 'Temporarily unavailable due to road construction',
+            },
+          },
+        },
+        ServiceAreaBranchAssignment: {
+          type: 'object',
+          required: ['branchId'],
+          properties: {
+            branchId: {
+              type: 'string',
+              description: 'Branch ID to assign',
+              example: '60d21b4667d0d8992e610c85',
+            },
+            isPrimary: {
+              type: 'boolean',
+              description: 'Is primary branch for this area',
+              example: true,
+            },
+          },
+        },
+        ServiceAreaPricing: {
+          type: 'object',
+          properties: {
+            basePrice: {
+              type: 'number',
+              description: 'Base price for delivery in this area',
+              example: 12000,
+            },
+            pricePerKm: {
+              type: 'number',
+              description: 'Price per kilometer',
+              example: 2500,
+            },
+            minimumDistance: {
+              type: 'number',
+              description: 'Minimum distance in kilometers',
+              example: 1,
+            },
+            maximumDistance: {
+              type: 'number',
+              description: 'Maximum distance in kilometers',
+              example: 25,
+            },
+            specialRates: {
+              type: 'array',
+              description: 'Special rates for specific conditions',
+              items: {
+                type: 'object',
+                required: ['name', 'rate'],
+                properties: {
+                  name: {
+                    type: 'string',
+                    description: 'Special rate name',
+                    example: 'Holiday Rate',
+                  },
+                  description: {
+                    type: 'string',
+                    description: 'Special rate description',
+                    example: 'Higher rate for holiday deliveries',
+                  },
+                  rate: {
+                    type: 'number',
+                    description: 'Rate amount',
+                    example: 18000,
+                  },
+                  conditions: {
+                    type: 'object',
+                    description: 'Conditions for applying this rate',
+                    example: { holidays: ['new-year', 'independence-day'] },
+                  },
+                },
+              },
+            },
+          },
+        },
       },
     },
   },
@@ -446,6 +757,7 @@ app.use(requestLogger()); // Request logging
 
 // API routes
 app.use('/api/v1/branches', branchRoutes);
+app.use('/api/v1/service-areas', serviceAreaRoutes);
 
 // Swagger documentation
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));

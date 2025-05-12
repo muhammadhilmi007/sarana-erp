@@ -24,7 +24,7 @@ const permissionMiddleware = (resource, action, options = {}) => {
       }
       
       // Admin role has all permissions
-      const isAdmin = req.user.roles.some(role => 
+      const isAdmin = req.user.roles && req.user.roles.some(role => 
         role.name === 'ADMIN' || role.name === 'admin'
       );
       
@@ -145,8 +145,10 @@ const checkResourceOwnership = async (userId, resource, resourceId) => {
   }
 };
 
-module.exports = {
-  permissionMiddleware,
-  checkPermission,
-  checkResourceOwnership,
-};
+// Export permissionMiddleware as default export for backward compatibility
+module.exports = permissionMiddleware;
+
+// Also export all functions as named exports
+module.exports.permissionMiddleware = permissionMiddleware;
+module.exports.checkPermission = checkPermission;
+module.exports.checkResourceOwnership = checkResourceOwnership;
