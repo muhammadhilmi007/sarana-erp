@@ -238,43 +238,43 @@ Checklist ini disusun berdasarkan fase implementasi (Backend → Frontend → Mo
 - [x] Implementasi seeder untuk divisions dan positions
 
 #### Forwarder Management Service
-- [ ] Desain dan implementasi database schema untuk forwarder partners dengan contract details
-- [ ] Implementasi CRUD endpoints untuk forwarder partners dengan validasi
-- [ ] Implementasi forwarder area management dengan coverage mapping
-- [ ] Implementasi forwarder rate management dengan multi-tier pricing
-- [ ] Implementasi forwarder integration points dengan API adapters
-- [ ] Implementasi forwarder performance tracking dan SLA monitoring
-- [ ] Implementasi forwarder shipment allocation dan load balancing
-- [ ] Implementasi forwarder document management (contracts, agreements)
-- [ ] Implementasi forwarder financial settlement tracking
-- [ ] Implementasi forwarder contact information dan communication log
-- [ ] Implementasi forwarder service level configuration
-- [ ] Unit testing untuk forwarder management
-- [ ] Integration testing untuk forwarder API endpoints
-- [ ] Performance testing untuk forwarder allocation algorithms
-- [ ] Implementasi seeder untuk forwarder partners
-- [ ] Implementasi API documentation dengan Swagger
+- [x] Desain dan implementasi database schema untuk forwarder partners dengan contract details
+- [x] Implementasi CRUD endpoints untuk forwarder partners dengan validasi
+- [x] Implementasi forwarder area management dengan coverage mapping
+- [x] Implementasi forwarder rate management dengan multi-tier pricing
+- [x] Implementasi forwarder integration points dengan API adapters
+- [x] Implementasi forwarder performance tracking dan SLA monitoring
+- [x] Implementasi forwarder shipment allocation dan load balancing
+- [x] Implementasi forwarder document management (contracts, agreements)
+- [x] Implementasi forwarder financial settlement tracking
+- [x] Implementasi forwarder contact information dan communication log
+- [x] Implementasi forwarder service level configuration
+- [x] Unit testing untuk forwarder management
+- [x] Integration testing untuk forwarder API endpoints
+- [x] Performance testing untuk forwarder allocation algorithms
+- [x] Implementasi seeder untuk forwarder partners
+- [x] Implementasi API documentation dengan Swagger
 
 ### D. Backend: Modul Manajemen Pegawai
 
 #### Employee Management Service 
-- [ ] Desain dan implementasi database schema untuk employees dengan comprehensive profile information
-- [ ] Implementasi CRUD endpoints untuk employees dengan validasi
-- [ ] Implementasi employee association dengan users account
-- [ ] Implementasi employee assignment ke branches dan positions dengan history tracking
-- [ ] Implementasi employee document management (KTP, NPWP, ijazah, sertifikat)
-- [ ] Implementasi employee status management (active, inactive, on leave, terminated) dengan history
-- [ ] Implementasi employee contact information management dengan validasi
-- [ ] Implementasi employee emergency contact management
-- [ ] Implementasi employee skill matrix dan competency tracking
-- [ ] Implementasi employee performance evaluation history
-- [ ] Implementasi employee career development tracking
-- [ ] Implementasi employee training history management
-- [ ] Implementasi employee contract management dengan expiration alerts
-- [ ] Unit testing untuk employee management
-- [ ] Integration testing untuk employee API endpoints
-- [ ] Implementasi API documentation dengan Swagger
-- [ ] Implementasi seeder untuk employees
+- [x] Desain dan implementasi database schema untuk employees dengan comprehensive profile information
+- [x] Implementasi CRUD endpoints untuk employees dengan validasi
+- [x] Implementasi employee association dengan users account
+- [x] Implementasi employee assignment ke branches dan positions dengan history tracking
+- [x] Implementasi employee document management (KTP, NPWP, ijazah, sertifikat)
+- [x] Implementasi employee status management (active, inactive, on leave, terminated) dengan history
+- [x] Implementasi employee contact information management dengan validasi
+- [x] Implementasi employee emergency contact management
+- [x] Implementasi employee skill matrix dan competency tracking
+- [x] Implementasi employee performance evaluation history
+- [x] Implementasi employee career development tracking
+- [x] Implementasi employee training history management
+- [x] Implementasi employee contract management dengan expiration alerts
+- [x] Unit testing untuk employee management
+- [x] Integration testing untuk employee API endpoints
+- [x] Implementasi API documentation dengan Swagger
+- [x] Implementasi seeder untuk employees
 
 #### Employee Attendance Service 
 - [ ] Desain dan implementasi database schema untuk attendance dengan time tracking

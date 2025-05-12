@@ -1,0 +1,27 @@
+2025-05-13 00:54:53 [error]: ValidationError: Forwarder validation failed: contactInfo.address: Cast to Object failed for value "Jl. Tomang Raya No. 11" (type string) at path "contactInfo.address", updatedBy: Path `updatedBy` is required., contract.contractNumber: Path `contract.contractNumber` is required., contract.endDate: Path `contract.endDate` is required., contract.startDate: Path `contract.startDate` is required., contactInfo.address.postalCode: Path `contactInfo.address.postalCode` is required., contactInfo.address.state: Path `contactInfo.address.state` is required., contactInfo.address.city: Path `contactInfo.address.city` is required., contactInfo.address.street: Path `contactInfo.address.street` is required., contactInfo.primaryContact.email: Path `contactInfo.primaryContact.email` is required., contactInfo.primaryContact.phone: Path `contactInfo.primaryContact.phone` is required., contactInfo.primaryContact.name: Path `contactInfo.primaryContact.name` is required., companyInfo.registrationNumber: Path `companyInfo.registrationNumber` is required., companyInfo.taxId: Path `companyInfo.taxId` is required., companyInfo.legalName: Path `companyInfo.legalName` is required., type: `national` is not a valid enum value for path `type`., coverageAreas.0.code: Path `code` is required., coverageAreas.0.type: Path `type` is required., coverageAreas.0.name: Path `name` is required., coverageAreas.1.code: Path `code` is required., coverageAreas.1.type: Path `type` is required., coverageAreas.1.name: Path `name` is required., coverageAreas.2.code: Path `code` is required., coverageAreas.2.type: Path `type` is required., coverageAreas.2.name: Path `name` is required., coverageAreas.3.code: Path `code` is required., coverageAreas.3.type: Path `type` is required., coverageAreas.3.name: Path `name` is required., coverageAreas.4.code: Path `code` is required., coverageAreas.4.type: Path `type` is required., coverageAreas.4.name: Path `name` is required., coverageAreas.5.code: Path `code` is required., coverageAreas.5.type: Path `type` is required., coverageAreas.5.name: Path `name` is required., coverageAreas.6.code: Path `code` is required., coverageAreas.6.type: Path `type` is required., coverageAreas.6.name: Path `name` is required., coverageAreas.7.code: Path `code` is required., coverageAreas.7.type: Path `type` is required., coverageAreas.7.name: Path `name` is required.
+    at Document.invalidate (D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\document.js:3343:32)
+    at model.$set (D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\document.js:1238:10)
+    at model.$set (D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\document.js:1227:14)
+    at model.$set (D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\document.js:1117:14)
+    at model.Document (D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\document.js:178:12)
+    at model.Model (D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\model.js:128:12)
+    at new model (D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\model.js:4813:15)
+    at Array.<anonymous> (D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\model.js:3031:17)
+    at _start (D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\helpers\parallelLimit.js:27:37)
+    at parallelLimit (D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\helpers\parallelLimit.js:23:5)
+2025-05-13 01:04:06 [error]: ValidationError: Forwarder validation failed: updatedBy: Path `updatedBy` is required., documents.1.type: `pricing` is not a valid enum value for path `type`., communicationLogs.0.subject: Path `subject` is required.
+    at Document.invalidate (D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\document.js:3343:32)
+    at D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\document.js:3104:17
+    at D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-05-13 01:04:42 [error]: ValidationError: Forwarder validation failed: documents.1.type: `document` is not a valid enum value for path `type`.
+    at Document.invalidate (D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\document.js:3343:32)
+    at Subdocument.invalidate (D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\types\subdocument.js:229:12)
+    at D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\document.js:3104:17
+    at D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2025-05-13 01:05:59 [error]: ValidationError: ForwarderAllocation validation failed: updatedBy: Path `updatedBy` is required., name: Path `name` is required., allocationId: Path `allocationId` is required.
+    at Document.invalidate (D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\document.js:3343:32)
+    at D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\document.js:3104:17
+    at D:\PROJECT\sarana-app\apps\forwarder-service\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)

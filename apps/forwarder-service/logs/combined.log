@@ -1,0 +1,25 @@
+2025-05-13 00:54:53 [info]: Connected to MongoDB
+2025-05-13 00:54:53 [info]: Seeding forwarder partners...
+2025-05-13 01:04:06 [info]: Connected to MongoDB
+2025-05-13 01:04:06 [info]: Seeding forwarder partners...
+2025-05-13 01:04:41 [info]: Connected to MongoDB
+2025-05-13 01:04:42 [info]: Seeding forwarder partners...
+2025-05-13 01:05:58 [info]: Connected to MongoDB
+2025-05-13 01:05:59 [info]: Seeding forwarder partners...
+2025-05-13 01:05:59 [info]: Inserted 1 forwarders
+2025-05-13 01:06:20 [info]: Connected to MongoDB
+2025-05-13 01:06:20 [info]: Database already has 1 forwarders. Skipping seeder.
+2025-05-13 01:23:59 [info]: Forwarder service running on port 3003
+2025-05-13 01:24:00 [info]: Connected to MongoDB
+2025-05-13 01:24:09 [info]: Forwarder service running on port 3003
+2025-05-13 01:24:09 [info]: Connected to MongoDB
+2025-05-13 01:24:21 [info]: ::1 - - [12/May/2025:18:24:21 +0000] "GET / HTTP/1.1" 404 49 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-05-13 01:24:21 [info]: ::1 - - [12/May/2025:18:24:21 +0000] "GET /favicon.ico HTTP/1.1" 404 60 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-05-13 01:24:31 [info]: ::1 - - [12/May/2025:18:24:31 +0000] "GET /apid-docs HTTP/1.1" 404 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-05-13 01:24:37 [info]: ::1 - - [12/May/2025:18:24:37 +0000] "GET /api-docs HTTP/1.1" 301 158 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-05-13 01:24:37 [info]: ::1 - - [12/May/2025:18:24:37 +0000] "GET /api-docs/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-05-13 01:24:37 [info]: ::1 - - [12/May/2025:18:24:37 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-05-13 01:24:37 [info]: ::1 - - [12/May/2025:18:24:37 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-05-13 01:24:37 [info]: ::1 - - [12/May/2025:18:24:37 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-05-13 01:24:37 [info]: ::1 - - [12/May/2025:18:24:37 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
+2025-05-13 01:24:38 [info]: ::1 - - [12/May/2025:18:24:38 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"
