@@ -1,0 +1,5 @@
+yarn run v1.22.22
+$ tsc
+error TS18003: No inputs were found in config file 'D:/PROJECT/sarana-app/packages/types/tsconfig.json'. Specified 'include' paths were '["src"]' and 'exclude' paths were '["node_modules","**/*.test.ts"]'.
+error Command failed with exit code 2.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
