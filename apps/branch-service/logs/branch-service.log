@@ -1,0 +1,33 @@
+{"level":"info","message":"Connected to MongoDB","service":"branch-service","timestamp":"2025-05-12 21:55:31:5531"}
+{"level":"info","message":"Creating headquarters branch...","service":"branch-service","timestamp":"2025-05-12 21:55:31:5531"}
+{"level":"info","message":"Creating regional branches...","service":"branch-service","timestamp":"2025-05-12 21:55:31:5531"}
+{"level":"info","message":"Creating branch offices...","service":"branch-service","timestamp":"2025-05-12 21:55:32:5532"}
+{"level":"info","message":"Seed data completed successfully","service":"branch-service","timestamp":"2025-05-12 21:55:33:5533"}
+{"level":"info","message":"Branch Management Service running on port 3003","service":"branch-service","timestamp":"2025-05-12 22:01:28:128"}
+{"level":"info","message":"Redis client connected","service":"branch-service","timestamp":"2025-05-12 22:01:28:128"}
+{"level":"info","message":"Connected to Redis","service":"branch-service","timestamp":"2025-05-12 22:01:28:128"}
+{"level":"info","message":"Connected to MongoDB","service":"branch-service","timestamp":"2025-05-12 22:01:29:129"}
+{"level":"info","message":"Branch Management Service running on port 3003","service":"branch-service","timestamp":"2025-05-12 22:02:07:27"}
+{"level":"info","message":"Redis client connected","service":"branch-service","timestamp":"2025-05-12 22:02:07:27"}
+{"level":"info","message":"Connected to Redis","service":"branch-service","timestamp":"2025-05-12 22:02:08:28"}
+{"level":"info","message":"Connected to MongoDB","service":"branch-service","timestamp":"2025-05-12 22:02:08:28"}
+{"ip":"::1","level":"info","message":"GET /api-docs/","method":"GET","requestId":"req-1747062144050-zqjbxw3ivep","service":"branch-service","timestamp":"2025-05-12 22:02:24:224","url":"/api-docs/"}
+{"duration":24,"ip":"::1","level":"info","message":"GET / 200 - 24ms","method":"GET","requestId":"req-1747062144050-zqjbxw3ivep","service":"branch-service","status":200,"timestamp":"2025-05-12 22:02:24:224","url":"/"}
+{"ip":"::1","level":"info","message":"GET /api-docs/swagger-ui.css","method":"GET","requestId":"req-1747062144131-q1yu2n78a9n","service":"branch-service","timestamp":"2025-05-12 22:02:24:224","url":"/api-docs/swagger-ui.css"}
+{"ip":"::1","level":"info","message":"GET /api-docs/swagger-ui-bundle.js","method":"GET","requestId":"req-1747062144134-ppybvq8yiz","service":"branch-service","timestamp":"2025-05-12 22:02:24:224","url":"/api-docs/swagger-ui-bundle.js"}
+{"ip":"::1","level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js","method":"GET","requestId":"req-1747062144138-cdgwmhipar","service":"branch-service","timestamp":"2025-05-12 22:02:24:224","url":"/api-docs/swagger-ui-standalone-preset.js"}
+{"ip":"::1","level":"info","message":"GET /api-docs/swagger-ui-init.js","method":"GET","requestId":"req-1747062144140-ja42hhty8lf","service":"branch-service","timestamp":"2025-05-12 22:02:24:224","url":"/api-docs/swagger-ui-init.js"}
+{"duration":5,"ip":"::1","level":"info","message":"GET /swagger-ui-init.js 200 - 5ms","method":"GET","requestId":"req-1747062144140-ja42hhty8lf","service":"branch-service","status":200,"timestamp":"2025-05-12 22:02:24:224","url":"/swagger-ui-init.js"}
+{"duration":21,"ip":"::1","level":"info","message":"GET /swagger-ui.css 200 - 21ms","method":"GET","requestId":"req-1747062144131-q1yu2n78a9n","service":"branch-service","status":200,"timestamp":"2025-05-12 22:02:24:224","url":"/swagger-ui.css"}
+{"duration":21,"ip":"::1","level":"info","message":"GET /swagger-ui-standalone-preset.js 200 - 21ms","method":"GET","requestId":"req-1747062144138-cdgwmhipar","service":"branch-service","status":200,"timestamp":"2025-05-12 22:02:24:224","url":"/swagger-ui-standalone-preset.js"}
+{"duration":82,"ip":"::1","level":"info","message":"GET /swagger-ui-bundle.js 200 - 82ms","method":"GET","requestId":"req-1747062144134-ppybvq8yiz","service":"branch-service","status":200,"timestamp":"2025-05-12 22:02:24:224","url":"/swagger-ui-bundle.js"}
+{"ip":"::1","level":"info","message":"GET /api-docs/favicon-32x32.png","method":"GET","requestId":"req-1747062144590-wyx572yfgt","service":"branch-service","timestamp":"2025-05-12 22:02:24:224","url":"/api-docs/favicon-32x32.png"}
+{"duration":3,"ip":"::1","level":"info","message":"GET /favicon-32x32.png 200 - 3ms","method":"GET","requestId":"req-1747062144590-wyx572yfgt","service":"branch-service","status":200,"timestamp":"2025-05-12 22:02:24:224","url":"/favicon-32x32.png"}
+{"ip":"::1","level":"info","message":"GET /api/v1/branches?page=1&limit=10&type=headquarters&status=active&sortBy=name&sortOrder=asc","method":"GET","requestId":"req-1747062165524-7n19ajpet04","service":"branch-service","timestamp":"2025-05-12 22:02:45:245","url":"/api/v1/branches?page=1&limit=10&type=headquarters&status=active&sortBy=name&sortOrder=asc"}
+{"duration":2,"ip":"::1","level":"warn","message":"GET /?page=1&limit=10&type=headquarters&status=active&sortBy=name&sortOrder=asc 401 - 2ms","method":"GET","requestId":"req-1747062165524-7n19ajpet04","service":"branch-service","status":401,"timestamp":"2025-05-12 22:02:45:245","url":"/?page=1&limit=10&type=headquarters&status=active&sortBy=name&sortOrder=asc"}
+{"ip":"::1","level":"info","message":"GET /api/v1/branches?page=1&limit=10&type=regional&status=inactive&sortBy=name&sortOrder=asc","method":"GET","requestId":"req-1747062175502-ha2xfzsir34","service":"branch-service","timestamp":"2025-05-12 22:02:55:255","url":"/api/v1/branches?page=1&limit=10&type=regional&status=inactive&sortBy=name&sortOrder=asc"}
+{"duration":2,"ip":"::1","level":"warn","message":"GET /?page=1&limit=10&type=regional&status=inactive&sortBy=name&sortOrder=asc 401 - 2ms","method":"GET","requestId":"req-1747062175502-ha2xfzsir34","service":"branch-service","status":401,"timestamp":"2025-05-12 22:02:55:255","url":"/?page=1&limit=10&type=regional&status=inactive&sortBy=name&sortOrder=asc"}
+{"level":"info","message":"Branch Management Service running on port 3003","service":"branch-service","timestamp":"2025-05-12 22:04:22:422"}
+{"level":"info","message":"Redis client connected","service":"branch-service","timestamp":"2025-05-12 22:04:22:422"}
+{"level":"info","message":"Connected to Redis","service":"branch-service","timestamp":"2025-05-12 22:04:22:422"}
+{"level":"info","message":"Connected to MongoDB","service":"branch-service","timestamp":"2025-05-12 22:04:22:422"}
