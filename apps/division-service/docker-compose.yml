@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  division-service:
+    build: .
+    container_name: division-service
+    ports:
+      - "3004:3004"
+    environment:
+      - NODE_ENV=development
+      - PORT=3004
+      - MONGODB_URI=mongodb://mongo:27017/sarana-division
+      - JWT_SECRET=samudra-paket-division-service-secret-key
+      - LOG_LEVEL=debug
+    volumes:
+      - ./logs:/app/logs
+    depends_on:
+      - mongo
+    networks:
+      - sarana-network
+    restart: unless-stopped
+
+  mongo:
+    image: mongo:6
+    container_name: division-mongo
+    ports:
+      - "27018:27017"
+    volumes:
+      - division-mongo-data:/data/db
+    networks:
+      - sarana-network
+    restart: unless-stopped
+
+networks:
+  sarana-network:
+    driver: bridge
+
+volumes:
+  division-mongo-data:
