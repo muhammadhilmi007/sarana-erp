@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  role-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sarana-role-service
+    ports:
+      - "3002:3002"
+    environment:
+      - NODE_ENV=development
+      - PORT=3002
+      - MONGODB_URI=mongodb://mongodb:27017/sarana-role
+      - REDIS_URL=redis://redis:6379
+      - JWT_SECRET=samudra-paket-auth-service-secret-key
+      - JWT_ACCESS_EXPIRES_IN=15m
+      - JWT_REFRESH_EXPIRES_IN=7d
+      - JWT_ISSUER=sarana-auth-service
+      - JWT_AUDIENCE=sarana-app
+      - LOG_LEVEL=debug
+      - PERMISSION_CACHE_TTL=3600
+    volumes:
+      - ./src:/app/src
+      - ./logs:/app/logs
+    depends_on:
+      - mongodb
+      - redis
+    networks:
+      - sarana-network
+    restart: unless-stopped
+
+  mongodb:
+    image: mongo:6.0
+    container_name: sarana-role-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - sarana-network
+    restart: unless-stopped
+
+  redis:
+    image: redis:7.0-alpine
+    container_name: sarana-role-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - sarana-network
+    restart: unless-stopped
+
+networks:
+  sarana-network:
+    driver: bridge
+
+volumes:
+  mongodb_data:
+  redis_data:

@@ -1,0 +1,14 @@
+2025-05-12T14:24:41.463Z [32minfo[39m: 	GET /login 404 2ms
+2025-05-12T14:24:43.898Z [32minfo[39m: 	GET /home 404 0ms
+2025-05-12T14:24:49.770Z [32minfo[39m: 	GET /home 404 1ms
+2025-05-12T14:25:13.061Z [32minfo[39m: 	GET / 404 1ms
+2025-05-12T14:25:19.338Z [32minfo[39m: 	GET /api-docs 301 1ms
+2025-05-12T14:25:19.359Z [32minfo[39m: 	GET /api-docs/ 200 7ms
+2025-05-12T14:25:19.421Z [32minfo[39m: 	GET /api-docs/swagger-ui-init.js 200 0ms
+2025-05-12T14:25:19.427Z [32minfo[39m: 	GET /api-docs/swagger-ui.css 200 16ms
+2025-05-12T14:25:19.431Z [32minfo[39m: 	GET /api-docs/swagger-ui-standalone-preset.js 200 13ms
+2025-05-12T14:25:19.438Z [32minfo[39m: 	GET /api-docs/swagger-ui-bundle.js 200 22ms
+2025-05-12T14:25:19.832Z [32minfo[39m: 	GET /api-docs/favicon-32x32.png 200 3ms
+2025-05-12T14:25:25.152Z [32minfo[39m: 	GET /api/v1/health 401 4ms
+2025-05-12T14:25:26.881Z [32minfo[39m: 	GET /api/v1/health 401 1ms
+2025-05-12T14:25:38.926Z [32minfo[39m: 	GET /api/v1/health/redis 401 1ms

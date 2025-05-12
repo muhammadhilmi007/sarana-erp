@@ -278,7 +278,7 @@ const login = async (req, res, next) => {
     }
     
     // Check if email is verified
-    if (!user.isEmailVerified && config.security.requireEmailVerification) {
+    if (!user.isEmailVerified && process.env.REQUIRE_EMAIL_VERIFICATION !== 'false') {
       throw new ApiError(403, 'Email not verified. Please verify your email before logging in.', ErrorCodes.AUTHORIZATION_ERROR);
     }
     
@@ -349,7 +349,7 @@ const login = async (req, res, next) => {
       refreshToken,
       ipAddress: req.ip,
       userAgent: req.headers['user-agent'],
-      expiresAt: new Date(Date.now() + config.jwt.refreshExpiresIn * 1000),
+      expiresAt: new Date(Date.now() + (parseInt(process.env.JWT_REFRESH_EXPIRES_IN) || 7 * 24 * 60 * 60) * 1000),
       isActive: true,
       lastActivity: new Date(),
     });
@@ -376,7 +376,7 @@ const login = async (req, res, next) => {
       data: {
         accessToken,
         refreshToken,
-        expiresIn: config.jwt.accessExpiresIn,
+        expiresIn: process.env.JWT_ACCESS_EXPIRES_IN || '15m',
         user: {
           userId: user._id,
           email: user.email,
@@ -437,7 +437,7 @@ const refreshAccessToken = async (req, res, next) => {
       data: {
         accessToken,
         refreshToken,
-        expiresIn: config.jwt.accessExpiresIn,
+        expiresIn: process.env.JWT_ACCESS_EXPIRES_IN || '15m',
       },
     });
   } catch (error) {

@@ -135,3 +135,342 @@
 2025-05-12 19:33:27:3327 [info]: Redis client reconnecting 
 2025-05-12 19:33:27:3327 [info]: Redis reconnecting in 10000ms (attempt 4) 
 2025-05-12 19:33:27:3327 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:24:17:2417 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:24:17:2417 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:24:17:2417 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:24:17:2417 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:24:18:2418 [info]: Auth Service running on port 3001 
+2025-05-12 20:24:18:2418 [info]: Redis reconnecting in 1000ms (attempt 0) 
+2025-05-12 20:24:18:2418 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:24:18:2418 [info]: Connected to MongoDB 
+2025-05-12 20:24:19:2419 [info]: Redis client reconnecting 
+2025-05-12 20:24:19:2419 [info]: Redis reconnecting in 2000ms (attempt 1) 
+2025-05-12 20:24:19:2419 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:24:21:2421 [info]: Redis client reconnecting 
+2025-05-12 20:24:21:2421 [info]: Redis reconnecting in 4000ms (attempt 2) 
+2025-05-12 20:24:21:2421 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:24:25:2425 [info]: Redis client reconnecting 
+2025-05-12 20:24:25:2425 [info]: Redis reconnecting in 8000ms (attempt 3) 
+2025-05-12 20:24:25:2425 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:24:33:2433 [info]: Redis client reconnecting 
+2025-05-12 20:24:33:2433 [info]: Redis reconnecting in 10000ms (attempt 4) 
+2025-05-12 20:24:33:2433 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:24:43:2443 [info]: Redis client reconnecting 
+2025-05-12 20:24:43:2443 [info]: Redis reconnecting in 10000ms (attempt 5) 
+2025-05-12 20:24:43:2443 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:24:53:2453 [info]: Redis client reconnecting 
+2025-05-12 20:24:53:2453 [info]: Redis reconnecting in 10000ms (attempt 6) 
+2025-05-12 20:24:53:2453 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:25:02:252 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:25:02:252 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:25:02:252 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:25:02:252 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:25:02:252 [info]: Auth Service running on port 3001 
+2025-05-12 20:25:02:252 [info]: Redis reconnecting in 1000ms (attempt 0) 
+2025-05-12 20:25:02:252 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:25:02:252 [info]: Connected to MongoDB 
+2025-05-12 20:25:03:253 [info]: Redis client reconnecting 
+2025-05-12 20:25:03:253 [info]: Redis reconnecting in 2000ms (attempt 1) 
+2025-05-12 20:25:03:253 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:25:05:255 [info]: Redis client reconnecting 
+2025-05-12 20:25:05:255 [info]: Redis reconnecting in 4000ms (attempt 2) 
+2025-05-12 20:25:05:255 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:25:09:259 [info]: Redis client reconnecting 
+2025-05-12 20:25:09:259 [info]: Redis reconnecting in 8000ms (attempt 3) 
+2025-05-12 20:25:09:259 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:25:17:2517 [info]: Redis client reconnecting 
+2025-05-12 20:25:17:2517 [info]: Redis reconnecting in 10000ms (attempt 4) 
+2025-05-12 20:25:17:2517 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:25:27:2527 [info]: Redis client reconnecting 
+2025-05-12 20:25:27:2527 [info]: Redis reconnecting in 10000ms (attempt 5) 
+2025-05-12 20:25:27:2527 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:25:37:2537 [info]: Redis client reconnecting 
+2025-05-12 20:25:37:2537 [info]: Redis reconnecting in 10000ms (attempt 6) 
+2025-05-12 20:25:37:2537 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:25:47:2547 [info]: Redis client reconnecting 
+2025-05-12 20:25:47:2547 [info]: Redis reconnecting in 10000ms (attempt 7) 
+2025-05-12 20:25:47:2547 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:25:57:2557 [info]: Redis client reconnecting 
+2025-05-12 20:25:57:2557 [info]: Redis reconnecting in 10000ms (attempt 8) 
+2025-05-12 20:25:57:2557 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:26:07:267 [info]: Redis client reconnecting 
+2025-05-12 20:26:07:267 [info]: Redis reconnecting in 10000ms (attempt 9) 
+2025-05-12 20:26:07:267 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:26:17:2617 [info]: Redis client reconnecting 
+2025-05-12 20:26:17:2617 [info]: Redis reconnecting in 10000ms (attempt 10) 
+2025-05-12 20:26:17:2617 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:26:27:2627 [info]: Redis client reconnecting 
+2025-05-12 20:26:27:2627 [info]: Redis reconnecting in 10000ms (attempt 11) 
+2025-05-12 20:26:27:2627 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:26:37:2637 [info]: Redis client reconnecting 
+2025-05-12 20:26:37:2637 [info]: Redis reconnecting in 10000ms (attempt 12) 
+2025-05-12 20:26:37:2637 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:26:47:2647 [info]: Redis client reconnecting 
+2025-05-12 20:26:47:2647 [info]: Redis reconnecting in 10000ms (attempt 13) 
+2025-05-12 20:26:47:2647 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:26:57:2657 [info]: Redis client reconnecting 
+2025-05-12 20:26:57:2657 [info]: Redis reconnecting in 10000ms (attempt 14) 
+2025-05-12 20:26:58:2658 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:27:08:278 [info]: Redis client reconnecting 
+2025-05-12 20:27:08:278 [info]: Redis reconnecting in 10000ms (attempt 15) 
+2025-05-12 20:27:08:278 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:27:18:2718 [info]: Redis client reconnecting 
+2025-05-12 20:27:18:2718 [info]: Redis reconnecting in 10000ms (attempt 16) 
+2025-05-12 20:27:18:2718 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:27:28:2728 [info]: Redis client reconnecting 
+2025-05-12 20:27:28:2728 [info]: Redis reconnecting in 10000ms (attempt 17) 
+2025-05-12 20:27:28:2728 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:27:38:2738 [info]: Redis client reconnecting 
+2025-05-12 20:27:38:2738 [info]: Redis reconnecting in 10000ms (attempt 18) 
+2025-05-12 20:27:38:2738 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:27:50:2750 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:27:50:2750 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:27:50:2750 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:27:50:2750 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:27:50:2750 [info]: Auth Service running on port 3001 
+2025-05-12 20:27:50:2750 [info]: Redis reconnecting in 1000ms (attempt 0) 
+2025-05-12 20:27:50:2750 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:27:50:2750 [info]: Connected to MongoDB 
+2025-05-12 20:27:51:2751 [info]: Redis client reconnecting 
+2025-05-12 20:27:51:2751 [info]: Redis reconnecting in 2000ms (attempt 1) 
+2025-05-12 20:27:51:2751 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:27:53:2753 [info]: Redis client reconnecting 
+2025-05-12 20:27:53:2753 [info]: Redis reconnecting in 4000ms (attempt 2) 
+2025-05-12 20:27:53:2753 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:27:57:2757 [info]: Redis client reconnecting 
+2025-05-12 20:27:57:2757 [info]: Redis reconnecting in 8000ms (attempt 3) 
+2025-05-12 20:27:57:2757 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:28:05:285 [info]: Redis client reconnecting 
+2025-05-12 20:28:05:285 [info]: Redis reconnecting in 10000ms (attempt 4) 
+2025-05-12 20:28:05:285 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:28:15:2815 [info]: Redis client reconnecting 
+2025-05-12 20:28:15:2815 [info]: Redis reconnecting in 10000ms (attempt 5) 
+2025-05-12 20:28:15:2815 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:28:25:2825 [info]: Redis client reconnecting 
+2025-05-12 20:28:25:2825 [info]: Redis reconnecting in 10000ms (attempt 6) 
+2025-05-12 20:28:25:2825 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:28:35:2835 [info]: Redis client reconnecting 
+2025-05-12 20:28:35:2835 [info]: Redis reconnecting in 10000ms (attempt 7) 
+2025-05-12 20:28:35:2835 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:28:42:2842 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:28:42:2842 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:28:42:2842 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:28:42:2842 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:28:43:2843 [info]: Auth Service running on port 3001 
+2025-05-12 20:28:43:2843 [info]: Redis reconnecting in 1000ms (attempt 0) 
+2025-05-12 20:28:43:2843 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:28:43:2843 [info]: Connected to MongoDB 
+2025-05-12 20:28:44:2844 [info]: Redis client reconnecting 
+2025-05-12 20:28:44:2844 [info]: Redis reconnecting in 2000ms (attempt 1) 
+2025-05-12 20:28:44:2844 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:28:46:2846 [info]: Redis client reconnecting 
+2025-05-12 20:28:46:2846 [info]: Redis reconnecting in 4000ms (attempt 2) 
+2025-05-12 20:28:46:2846 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:28:50:2850 [info]: Redis client reconnecting 
+2025-05-12 20:28:50:2850 [info]: Redis reconnecting in 8000ms (attempt 3) 
+2025-05-12 20:28:50:2850 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:28:58:2858 [info]: Redis client reconnecting 
+2025-05-12 20:28:58:2858 [info]: Redis reconnecting in 10000ms (attempt 4) 
+2025-05-12 20:28:58:2858 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:29:08:298 [info]: Redis client reconnecting 
+2025-05-12 20:29:08:298 [info]: Redis reconnecting in 10000ms (attempt 5) 
+2025-05-12 20:29:08:298 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:29:18:2918 [info]: Redis client reconnecting 
+2025-05-12 20:29:18:2918 [info]: Redis reconnecting in 10000ms (attempt 6) 
+2025-05-12 20:29:18:2918 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:29:28:2928 [info]: Redis client reconnecting 
+2025-05-12 20:29:28:2928 [info]: Redis reconnecting in 10000ms (attempt 7) 
+2025-05-12 20:29:28:2928 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:29:29:2929 [http]: GET /?vscodeBrowserReqId=1747056569814 {"requestId":"9da7e095-3cee-48d6-a913-088c3284565b","method":"GET","url":"/?vscodeBrowserReqId=1747056569814","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Windsurf/1.99.1 Chrome/132.0.6834.210 Electron/34.3.2 Safari/537.36"}
+2025-05-12 20:29:29:2929 [warn]: Error: Resource not found {"statusCode":404,"errorCode":"NOT_FOUND_ERROR","details":null,"stack":"ApiError: Resource not found\n    at notFoundHandler (D:\\PROJECT\\sarana-app\\apps\\auth-service\\src\\middleware\\errorHandler.js:128:15)\n    at Layer.handle [as handle_request] (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\PROJECT\\sarana-app\\node_modules\\express-rate-limit\\dist\\index.cjs:659:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async D:\\PROJECT\\sarana-app\\node_modules\\express-rate-limit\\dist\\index.cjs:576:5","requestId":"9da7e095-3cee-48d6-a913-088c3284565b","path":"/","method":"GET"}
+2025-05-12 20:29:29:2929 [warn]: GET /?vscodeBrowserReqId=1747056569814 404 14ms {"requestId":"9da7e095-3cee-48d6-a913-088c3284565b","method":"GET","url":"/?vscodeBrowserReqId=1747056569814","statusCode":404,"duration":14}
+2025-05-12 20:29:38:2938 [info]: Redis client reconnecting 
+2025-05-12 20:29:38:2938 [info]: Redis reconnecting in 10000ms (attempt 8) 
+2025-05-12 20:29:38:2938 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:29:41:2941 [http]: GET /?vscodeBrowserReqId=1747056581082 {"requestId":"ed82370f-ae11-49e1-9e57-aff38ab5cad8","method":"GET","url":"/?vscodeBrowserReqId=1747056581082","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Windsurf/1.99.1 Chrome/132.0.6834.210 Electron/34.3.2 Safari/537.36"}
+2025-05-12 20:29:41:2941 [warn]: Error: Resource not found {"statusCode":404,"errorCode":"NOT_FOUND_ERROR","details":null,"stack":"ApiError: Resource not found\n    at notFoundHandler (D:\\PROJECT\\sarana-app\\apps\\auth-service\\src\\middleware\\errorHandler.js:128:15)\n    at Layer.handle [as handle_request] (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\PROJECT\\sarana-app\\node_modules\\express-rate-limit\\dist\\index.cjs:659:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async D:\\PROJECT\\sarana-app\\node_modules\\express-rate-limit\\dist\\index.cjs:576:5","requestId":"ed82370f-ae11-49e1-9e57-aff38ab5cad8","path":"/","method":"GET"}
+2025-05-12 20:29:41:2941 [warn]: GET /?vscodeBrowserReqId=1747056581082 404 1ms {"requestId":"ed82370f-ae11-49e1-9e57-aff38ab5cad8","method":"GET","url":"/?vscodeBrowserReqId=1747056581082","statusCode":404,"duration":1}
+2025-05-12 20:29:45:2945 [http]: GET / {"requestId":"4f616a95-86bf-4c9c-b317-fd8cdfce05e7","method":"GET","url":"/","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 20:29:45:2945 [warn]: Error: Resource not found {"statusCode":404,"errorCode":"NOT_FOUND_ERROR","details":null,"stack":"ApiError: Resource not found\n    at notFoundHandler (D:\\PROJECT\\sarana-app\\apps\\auth-service\\src\\middleware\\errorHandler.js:128:15)\n    at Layer.handle [as handle_request] (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\PROJECT\\sarana-app\\node_modules\\express-rate-limit\\dist\\index.cjs:659:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async D:\\PROJECT\\sarana-app\\node_modules\\express-rate-limit\\dist\\index.cjs:576:5","requestId":"4f616a95-86bf-4c9c-b317-fd8cdfce05e7","path":"/","method":"GET"}
+2025-05-12 20:29:45:2945 [warn]: GET / 404 1ms {"requestId":"4f616a95-86bf-4c9c-b317-fd8cdfce05e7","method":"GET","url":"/","statusCode":404,"duration":1}
+2025-05-12 20:29:45:2945 [http]: GET /favicon.ico {"requestId":"3a72517f-6b56-488a-96ed-a7fefe03aa61","method":"GET","url":"/favicon.ico","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 20:29:45:2945 [warn]: Error: Resource not found {"statusCode":404,"errorCode":"NOT_FOUND_ERROR","details":null,"stack":"ApiError: Resource not found\n    at notFoundHandler (D:\\PROJECT\\sarana-app\\apps\\auth-service\\src\\middleware\\errorHandler.js:128:15)\n    at Layer.handle [as handle_request] (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\PROJECT\\sarana-app\\node_modules\\express-rate-limit\\dist\\index.cjs:659:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async D:\\PROJECT\\sarana-app\\node_modules\\express-rate-limit\\dist\\index.cjs:576:5","requestId":"3a72517f-6b56-488a-96ed-a7fefe03aa61","path":"/favicon.ico","method":"GET"}
+2025-05-12 20:29:45:2945 [warn]: GET /favicon.ico 404 2ms {"requestId":"3a72517f-6b56-488a-96ed-a7fefe03aa61","method":"GET","url":"/favicon.ico","statusCode":404,"duration":2}
+2025-05-12 20:29:48:2948 [info]: Redis client reconnecting 
+2025-05-12 20:29:48:2948 [info]: Redis reconnecting in 10000ms (attempt 9) 
+2025-05-12 20:29:48:2948 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:29:55:2955 [http]: GET /?vscodeBrowserReqId=1747056595964 {"requestId":"a9ce9012-83a8-498c-9365-6dbeb10716e2","method":"GET","url":"/?vscodeBrowserReqId=1747056595964","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Windsurf/1.99.1 Chrome/132.0.6834.210 Electron/34.3.2 Safari/537.36"}
+2025-05-12 20:29:55:2955 [warn]: Error: Resource not found {"statusCode":404,"errorCode":"NOT_FOUND_ERROR","details":null,"stack":"ApiError: Resource not found\n    at notFoundHandler (D:\\PROJECT\\sarana-app\\apps\\auth-service\\src\\middleware\\errorHandler.js:128:15)\n    at Layer.handle [as handle_request] (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\PROJECT\\sarana-app\\node_modules\\express-rate-limit\\dist\\index.cjs:659:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async D:\\PROJECT\\sarana-app\\node_modules\\express-rate-limit\\dist\\index.cjs:576:5","requestId":"a9ce9012-83a8-498c-9365-6dbeb10716e2","path":"/","method":"GET"}
+2025-05-12 20:29:55:2955 [warn]: GET /?vscodeBrowserReqId=1747056595964 404 2ms {"requestId":"a9ce9012-83a8-498c-9365-6dbeb10716e2","method":"GET","url":"/?vscodeBrowserReqId=1747056595964","statusCode":404,"duration":2}
+2025-05-12 20:29:58:2958 [info]: Redis client reconnecting 
+2025-05-12 20:29:58:2958 [info]: Redis reconnecting in 10000ms (attempt 10) 
+2025-05-12 20:29:58:2958 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:30:08:308 [info]: Redis client reconnecting 
+2025-05-12 20:30:08:308 [info]: Redis reconnecting in 10000ms (attempt 11) 
+2025-05-12 20:30:08:308 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:31:24:3124 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:31:24:3124 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:31:24:3124 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:31:24:3124 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:31:24:3124 [info]: Auth Service running on port 3001 
+2025-05-12 20:31:24:3124 [info]: Redis reconnecting in 1000ms (attempt 0) 
+2025-05-12 20:31:24:3124 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:31:24:3124 [info]: Connected to MongoDB 
+2025-05-12 20:31:25:3125 [info]: Redis client reconnecting 
+2025-05-12 20:31:25:3125 [info]: Redis reconnecting in 2000ms (attempt 1) 
+2025-05-12 20:31:25:3125 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:31:27:3127 [info]: Redis client reconnecting 
+2025-05-12 20:31:27:3127 [info]: Redis reconnecting in 4000ms (attempt 2) 
+2025-05-12 20:31:27:3127 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:46:15:4615 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:46:15:4615 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:46:15:4615 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:46:15:4615 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:46:15:4615 [info]: Auth Service running on port 3001 
+2025-05-12 20:46:15:4615 [info]: Connected to MongoDB 
+2025-05-12 20:46:17:4617 [info]: Redis client connecting 
+2025-05-12 20:46:17:4617 [info]: Redis client connected and ready 
+2025-05-12 20:46:17:4617 [info]: Connected to Redis 
+2025-05-12 20:46:37:4637 [http]: GET /api-docs {"requestId":"c4a6e417-ab48-4ede-9128-03d62622ccb3","method":"GET","url":"/api-docs","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 20:46:37:4637 [http]: GET /api-docs 301 7ms {"requestId":"c4a6e417-ab48-4ede-9128-03d62622ccb3","method":"GET","url":"/api-docs","statusCode":301,"duration":7}
+2025-05-12 20:46:37:4637 [http]: GET /api-docs/ {"requestId":"3c3379cd-a132-462b-8bf7-efd2d9b36911","method":"GET","url":"/api-docs/","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 20:46:37:4637 [http]: GET /api-docs/ 200 17ms {"requestId":"3c3379cd-a132-462b-8bf7-efd2d9b36911","method":"GET","url":"/api-docs/","statusCode":200,"duration":17}
+2025-05-12 20:46:37:4637 [http]: GET /api-docs/swagger-ui.css {"requestId":"01be242d-fa19-4da0-9336-d4b1c7182cb0","method":"GET","url":"/api-docs/swagger-ui.css","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 20:46:37:4637 [http]: GET /api-docs/swagger-ui-bundle.js {"requestId":"6cb5185f-8465-48f7-a8d7-5ec1acfcd54f","method":"GET","url":"/api-docs/swagger-ui-bundle.js","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 20:46:37:4637 [http]: GET /api-docs/swagger-ui-standalone-preset.js {"requestId":"fa842e57-05df-4e81-a88d-55f30b301a9d","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 20:46:37:4637 [http]: GET /api-docs/swagger-ui-init.js {"requestId":"eabaad59-a4a6-4c43-b085-867d3abaa882","method":"GET","url":"/api-docs/swagger-ui-init.js","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 20:46:37:4637 [http]: GET /api-docs/swagger-ui.css 200 21ms {"requestId":"01be242d-fa19-4da0-9336-d4b1c7182cb0","method":"GET","url":"/api-docs/swagger-ui.css","statusCode":200,"duration":21}
+2025-05-12 20:46:37:4637 [http]: GET /api-docs/swagger-ui-init.js 200 9ms {"requestId":"eabaad59-a4a6-4c43-b085-867d3abaa882","method":"GET","url":"/api-docs/swagger-ui-init.js","statusCode":200,"duration":9}
+2025-05-12 20:46:37:4637 [http]: GET /api-docs/swagger-ui-standalone-preset.js 200 37ms {"requestId":"fa842e57-05df-4e81-a88d-55f30b301a9d","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js","statusCode":200,"duration":37}
+2025-05-12 20:46:37:4637 [http]: GET /api-docs/swagger-ui-bundle.js 200 97ms {"requestId":"6cb5185f-8465-48f7-a8d7-5ec1acfcd54f","method":"GET","url":"/api-docs/swagger-ui-bundle.js","statusCode":200,"duration":97}
+2025-05-12 20:46:38:4638 [http]: GET /api-docs/favicon-32x32.png {"requestId":"027414ed-6133-4e5b-8035-5691bcf72638","method":"GET","url":"/api-docs/favicon-32x32.png","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 20:46:38:4638 [http]: GET /api-docs/favicon-32x32.png 200 3ms {"requestId":"027414ed-6133-4e5b-8035-5691bcf72638","method":"GET","url":"/api-docs/favicon-32x32.png","statusCode":200,"duration":3}
+2025-05-12 20:46:55:4655 [http]: GET /admin/users?page=1&limit=10&sortBy=createdAt&sortOrder=desc {"requestId":"2b8d665d-6990-4e09-9d9b-3afe36cd7fa3","method":"GET","url":"/admin/users?page=1&limit=10&sortBy=createdAt&sortOrder=desc","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 20:46:55:4655 [warn]: Error: Resource not found {"statusCode":404,"errorCode":"NOT_FOUND_ERROR","details":null,"stack":"ApiError: Resource not found\n    at notFoundHandler (D:\\PROJECT\\sarana-app\\apps\\auth-service\\src\\middleware\\errorHandler.js:128:15)\n    at Layer.handle [as handle_request] (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\PROJECT\\sarana-app\\node_modules\\express-rate-limit\\dist\\index.cjs:659:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async D:\\PROJECT\\sarana-app\\node_modules\\express-rate-limit\\dist\\index.cjs:576:5","requestId":"2b8d665d-6990-4e09-9d9b-3afe36cd7fa3","path":"/admin/users","method":"GET"}
+2025-05-12 20:46:55:4655 [warn]: GET /admin/users?page=1&limit=10&sortBy=createdAt&sortOrder=desc 404 2ms {"requestId":"2b8d665d-6990-4e09-9d9b-3afe36cd7fa3","method":"GET","url":"/admin/users?page=1&limit=10&sortBy=createdAt&sortOrder=desc","statusCode":404,"duration":2}
+2025-05-12 20:48:58:4858 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:48:58:4858 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:48:58:4858 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:48:58:4858 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:48:59:4859 [info]: Auth Service running on port 3001 
+2025-05-12 20:48:59:4859 [info]: Redis reconnecting in 1000ms (attempt 0) 
+2025-05-12 20:48:59:4859 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:48:59:4859 [info]: Connected to MongoDB 
+2025-05-12 20:49:00:490 [info]: Redis client reconnecting 
+2025-05-12 20:49:00:490 [info]: Redis reconnecting in 2000ms (attempt 1) 
+2025-05-12 20:49:00:490 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:49:02:492 [info]: Redis client reconnecting 
+2025-05-12 20:49:02:492 [info]: Redis reconnecting in 4000ms (attempt 2) 
+2025-05-12 20:49:02:492 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:49:06:496 [info]: Redis client reconnecting 
+2025-05-12 20:49:06:496 [info]: Redis reconnecting in 8000ms (attempt 3) 
+2025-05-12 20:49:06:496 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:49:09:499 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:49:09:499 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:49:09:499 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:49:09:499 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:49:10:4910 [info]: Auth Service running on port 3001 
+2025-05-12 20:49:10:4910 [info]: Redis reconnecting in 1000ms (attempt 0) 
+2025-05-12 20:49:10:4910 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:49:10:4910 [info]: Connected to MongoDB 
+2025-05-12 20:49:11:4911 [info]: Redis client reconnecting 
+2025-05-12 20:49:11:4911 [info]: Redis reconnecting in 2000ms (attempt 1) 
+2025-05-12 20:49:11:4911 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:49:13:4913 [info]: Redis client reconnecting 
+2025-05-12 20:49:13:4913 [info]: Redis reconnecting in 4000ms (attempt 2) 
+2025-05-12 20:49:13:4913 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:49:17:4917 [info]: Redis client reconnecting 
+2025-05-12 20:49:17:4917 [info]: Redis reconnecting in 8000ms (attempt 3) 
+2025-05-12 20:49:17:4917 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:49:21:4921 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:49:21:4921 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:49:21:4921 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:49:21:4921 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:49:22:4922 [info]: Auth Service running on port 3001 
+2025-05-12 20:49:22:4922 [info]: Redis reconnecting in 1000ms (attempt 0) 
+2025-05-12 20:49:22:4922 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:49:22:4922 [info]: Connected to MongoDB 
+2025-05-12 20:49:23:4923 [info]: Redis client reconnecting 
+2025-05-12 20:49:23:4923 [info]: Redis reconnecting in 2000ms (attempt 1) 
+2025-05-12 20:49:23:4923 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:49:25:4925 [info]: Redis client reconnecting 
+2025-05-12 20:49:25:4925 [info]: Redis reconnecting in 4000ms (attempt 2) 
+2025-05-12 20:49:25:4925 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:49:40:4940 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:49:40:4940 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:49:40:4940 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:49:40:4940 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:49:40:4940 [info]: Auth Service running on port 3001 
+2025-05-12 20:49:40:4940 [info]: Redis reconnecting in 1000ms (attempt 0) 
+2025-05-12 20:49:40:4940 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:49:40:4940 [info]: Connected to MongoDB 
+2025-05-12 20:49:41:4941 [info]: Redis client reconnecting 
+2025-05-12 20:49:41:4941 [info]: Redis reconnecting in 2000ms (attempt 1) 
+2025-05-12 20:49:41:4941 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:49:43:4943 [info]: Redis client reconnecting 
+2025-05-12 20:49:43:4943 [info]: Redis reconnecting in 4000ms (attempt 2) 
+2025-05-12 20:49:43:4943 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:49:47:4947 [info]: Redis client reconnecting 
+2025-05-12 20:49:47:4947 [info]: Redis reconnecting in 8000ms (attempt 3) 
+2025-05-12 20:49:47:4947 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:49:55:4955 [info]: Redis client reconnecting 
+2025-05-12 20:49:55:4955 [info]: Redis reconnecting in 10000ms (attempt 4) 
+2025-05-12 20:49:55:4955 [error]: Redis client error:  {"error":{"code":"ECONNREFUSED"}}
+2025-05-12 20:50:13:5013 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:50:13:5013 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:50:13:5013 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:50:13:5013 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 20:50:14:5014 [info]: Auth Service running on port 3001 
+2025-05-12 20:50:14:5014 [info]: Connected to MongoDB 
+2025-05-12 20:50:14:5014 [info]: Redis client connecting 
+2025-05-12 20:50:14:5014 [info]: Redis client connected and ready 
+2025-05-12 20:50:14:5014 [info]: Connected to Redis 
+2025-05-12 21:21:26:2126 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 21:21:26:2126 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 21:21:26:2126 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 21:21:26:2126 [warn]: Redis not available, using memory store for rate limiting 
+2025-05-12 21:21:26:2126 [info]: Auth Service running on port 3001 
+2025-05-12 21:21:27:2127 [info]: Redis client connecting 
+2025-05-12 21:21:29:2129 [info]: Redis client connected and ready 
+2025-05-12 21:21:29:2129 [info]: Connected to Redis 
+2025-05-12 21:21:29:2129 [info]: Connected to MongoDB 
+2025-05-12 21:22:17:2217 [http]: GET /api-docs/ {"requestId":"d461f19d-7448-451a-b20c-14d499ddfb3b","method":"GET","url":"/api-docs/","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:17:2217 [http]: GET /api-docs/ 304 11ms {"requestId":"d461f19d-7448-451a-b20c-14d499ddfb3b","method":"GET","url":"/api-docs/","statusCode":304,"duration":11}
+2025-05-12 21:22:17:2217 [http]: GET /api-docs/swagger-ui.css {"requestId":"9a4ed47b-0c00-4be8-8146-daf78093f7e2","method":"GET","url":"/api-docs/swagger-ui.css","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:17:2217 [http]: GET /api-docs/swagger-ui-bundle.js {"requestId":"34b0405f-edc7-43d0-b17e-ada4de1954d8","method":"GET","url":"/api-docs/swagger-ui-bundle.js","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:17:2217 [http]: GET /api-docs/swagger-ui.css 304 4ms {"requestId":"9a4ed47b-0c00-4be8-8146-daf78093f7e2","method":"GET","url":"/api-docs/swagger-ui.css","statusCode":304,"duration":4}
+2025-05-12 21:22:17:2217 [http]: GET /api-docs/swagger-ui-standalone-preset.js {"requestId":"233fe727-9def-45d2-a531-25b20b79958f","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:17:2217 [http]: GET /api-docs/swagger-ui-bundle.js 304 7ms {"requestId":"34b0405f-edc7-43d0-b17e-ada4de1954d8","method":"GET","url":"/api-docs/swagger-ui-bundle.js","statusCode":304,"duration":7}
+2025-05-12 21:22:17:2217 [http]: GET /api-docs/swagger-ui-standalone-preset.js 304 4ms {"requestId":"233fe727-9def-45d2-a531-25b20b79958f","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js","statusCode":304,"duration":4}
+2025-05-12 21:22:17:2217 [http]: GET /api-docs/swagger-ui-init.js {"requestId":"b847d4c1-0e98-4f58-a4d9-338f1474b29f","method":"GET","url":"/api-docs/swagger-ui-init.js","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:17:2217 [http]: GET /api-docs/swagger-ui-init.js 304 0ms {"requestId":"b847d4c1-0e98-4f58-a4d9-338f1474b29f","method":"GET","url":"/api-docs/swagger-ui-init.js","statusCode":304,"duration":0}
+2025-05-12 21:22:26:2226 [http]: GET /api-docs/ {"requestId":"e02f6ac6-fabb-4f96-bd42-c328ac22aabb","method":"GET","url":"/api-docs/","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:26:2226 [http]: GET /api-docs/ 304 1ms {"requestId":"e02f6ac6-fabb-4f96-bd42-c328ac22aabb","method":"GET","url":"/api-docs/","statusCode":304,"duration":1}
+2025-05-12 21:22:26:2226 [http]: GET /api-docs/swagger-ui.css {"requestId":"99a0cc02-77da-45d8-a641-71bdbb2fab84","method":"GET","url":"/api-docs/swagger-ui.css","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:26:2226 [http]: GET /api-docs/swagger-ui-bundle.js {"requestId":"4869a64e-ca77-41fd-90c1-336d08f97c74","method":"GET","url":"/api-docs/swagger-ui-bundle.js","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:26:2226 [http]: GET /api-docs/swagger-ui-standalone-preset.js {"requestId":"be2779ab-ac79-497b-897d-556f76bd3c7f","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:26:2226 [http]: GET /api-docs/swagger-ui-init.js {"requestId":"662278a4-9d41-4062-96dd-9dc541059726","method":"GET","url":"/api-docs/swagger-ui-init.js","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:26:2226 [http]: GET /api-docs/swagger-ui-init.js 304 1ms {"requestId":"662278a4-9d41-4062-96dd-9dc541059726","method":"GET","url":"/api-docs/swagger-ui-init.js","statusCode":304,"duration":1}
+2025-05-12 21:22:26:2226 [http]: GET /api-docs/swagger-ui.css 304 7ms {"requestId":"99a0cc02-77da-45d8-a641-71bdbb2fab84","method":"GET","url":"/api-docs/swagger-ui.css","statusCode":304,"duration":7}
+2025-05-12 21:22:26:2226 [http]: GET /api-docs/swagger-ui-bundle.js 304 8ms {"requestId":"4869a64e-ca77-41fd-90c1-336d08f97c74","method":"GET","url":"/api-docs/swagger-ui-bundle.js","statusCode":304,"duration":8}
+2025-05-12 21:22:26:2226 [http]: GET /api-docs/swagger-ui-standalone-preset.js 304 7ms {"requestId":"be2779ab-ac79-497b-897d-556f76bd3c7f","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js","statusCode":304,"duration":7}
+2025-05-12 21:22:26:2226 [http]: GET /api-docs/favicon-32x32.png {"requestId":"7b81210a-c19c-47b4-8e88-1ca084404cc7","method":"GET","url":"/api-docs/favicon-32x32.png","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:26:2226 [http]: GET /api-docs/favicon-32x32.png 304 3ms {"requestId":"7b81210a-c19c-47b4-8e88-1ca084404cc7","method":"GET","url":"/api-docs/favicon-32x32.png","statusCode":304,"duration":3}
+2025-05-12 21:22:38:2238 [http]: GET / {"requestId":"b7f29466-c908-4f51-86d2-c50a47618bcf","method":"GET","url":"/","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:38:2238 [warn]: Error: Resource not found {"statusCode":404,"errorCode":"NOT_FOUND_ERROR","details":null,"stack":"ApiError: Resource not found\n    at notFoundHandler (D:\\PROJECT\\sarana-app\\apps\\auth-service\\src\\middleware\\errorHandler.js:128:15)\n    at Layer.handle [as handle_request] (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\PROJECT\\sarana-app\\node_modules\\express-rate-limit\\dist\\index.cjs:659:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async D:\\PROJECT\\sarana-app\\node_modules\\express-rate-limit\\dist\\index.cjs:576:5","requestId":"b7f29466-c908-4f51-86d2-c50a47618bcf","path":"/","method":"GET"}
+2025-05-12 21:22:38:2238 [warn]: GET / 404 5ms {"requestId":"b7f29466-c908-4f51-86d2-c50a47618bcf","method":"GET","url":"/","statusCode":404,"duration":5}
+2025-05-12 21:22:38:2238 [http]: GET /favicon.ico {"requestId":"de27b4ad-a9eb-45b6-bbff-7c353d371f31","method":"GET","url":"/favicon.ico","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:38:2238 [warn]: Error: Resource not found {"statusCode":404,"errorCode":"NOT_FOUND_ERROR","details":null,"stack":"ApiError: Resource not found\n    at notFoundHandler (D:\\PROJECT\\sarana-app\\apps\\auth-service\\src\\middleware\\errorHandler.js:128:15)\n    at Layer.handle [as handle_request] (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\PROJECT\\sarana-app\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\PROJECT\\sarana-app\\node_modules\\express-rate-limit\\dist\\index.cjs:659:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async D:\\PROJECT\\sarana-app\\node_modules\\express-rate-limit\\dist\\index.cjs:576:5","requestId":"de27b4ad-a9eb-45b6-bbff-7c353d371f31","path":"/favicon.ico","method":"GET"}
+2025-05-12 21:22:38:2238 [warn]: GET /favicon.ico 404 2ms {"requestId":"de27b4ad-a9eb-45b6-bbff-7c353d371f31","method":"GET","url":"/favicon.ico","statusCode":404,"duration":2}
+2025-05-12 21:22:46:2246 [http]: GET /api-docs/ {"requestId":"b6fc5459-986c-4820-a2b8-0c6a2e1d24cf","method":"GET","url":"/api-docs/","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:46:2246 [http]: GET /api-docs/ 304 2ms {"requestId":"b6fc5459-986c-4820-a2b8-0c6a2e1d24cf","method":"GET","url":"/api-docs/","statusCode":304,"duration":2}
+2025-05-12 21:22:46:2246 [http]: GET /api-docs/swagger-ui.css {"requestId":"0ce606ec-e815-42d0-b2e5-a4f8ac560846","method":"GET","url":"/api-docs/swagger-ui.css","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:46:2246 [http]: GET /api-docs/swagger-ui-bundle.js {"requestId":"afd61034-4f79-4d05-bf71-1c4c8ee50a4c","method":"GET","url":"/api-docs/swagger-ui-bundle.js","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:46:2246 [http]: GET /api-docs/swagger-ui-standalone-preset.js {"requestId":"736dc36b-da79-4bd2-9797-b4772090d41f","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:46:2246 [http]: GET /api-docs/swagger-ui-init.js {"requestId":"74ca2f2f-ccfc-43eb-a4c4-014970c088c1","method":"GET","url":"/api-docs/swagger-ui-init.js","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0"}
+2025-05-12 21:22:46:2246 [http]: GET /api-docs/swagger-ui-init.js 304 1ms {"requestId":"74ca2f2f-ccfc-43eb-a4c4-014970c088c1","method":"GET","url":"/api-docs/swagger-ui-init.js","statusCode":304,"duration":1}
+2025-05-12 21:22:46:2246 [http]: GET /api-docs/swagger-ui.css 304 8ms {"requestId":"0ce606ec-e815-42d0-b2e5-a4f8ac560846","method":"GET","url":"/api-docs/swagger-ui.css","statusCode":304,"duration":8}
+2025-05-12 21:22:46:2246 [http]: GET /api-docs/swagger-ui-bundle.js 304 7ms {"requestId":"afd61034-4f79-4d05-bf71-1c4c8ee50a4c","method":"GET","url":"/api-docs/swagger-ui-bundle.js","statusCode":304,"duration":7}
+2025-05-12 21:22:46:2246 [http]: GET /api-docs/swagger-ui-standalone-preset.js 304 5ms {"requestId":"736dc36b-da79-4bd2-9797-b4772090d41f","method":"GET","url":"/api-docs/swagger-ui-standalone-preset.js","statusCode":304,"duration":5}
+2025-05-12 21:23:12:2312 [warn]: Error: Unexpected token '"', ""pelanggan"" is not valid JSON {"statusCode":400,"errorCode":"INTERNAL_ERROR","details":null,"stack":"SyntaxError: Unexpected token '\"', \"\"pelanggan\"\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (D:\\PROJECT\\sarana-app\\node_modules\\body-parser\\lib\\types\\json.js:169:10)\n    at parse (D:\\PROJECT\\sarana-app\\node_modules\\body-parser\\lib\\types\\json.js:86:15)\n    at D:\\PROJECT\\sarana-app\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (D:\\PROJECT\\sarana-app\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\PROJECT\\sarana-app\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\PROJECT\\sarana-app\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","path":"/admin/users","method":"POST"}
+2025-05-12 21:23:13:2313 [warn]: Error: Unexpected token '"', ""pelanggan"" is not valid JSON {"statusCode":400,"errorCode":"INTERNAL_ERROR","details":null,"stack":"SyntaxError: Unexpected token '\"', \"\"pelanggan\"\" is not valid JSON\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (D:\\PROJECT\\sarana-app\\node_modules\\body-parser\\lib\\types\\json.js:169:10)\n    at parse (D:\\PROJECT\\sarana-app\\node_modules\\body-parser\\lib\\types\\json.js:86:15)\n    at D:\\PROJECT\\sarana-app\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (D:\\PROJECT\\sarana-app\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\PROJECT\\sarana-app\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\PROJECT\\sarana-app\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)","path":"/admin/users","method":"POST"}
