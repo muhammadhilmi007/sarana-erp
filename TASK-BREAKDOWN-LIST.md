@@ -298,81 +298,81 @@ Checklist ini disusun berdasarkan fase implementasi (Backend → Frontend → Mo
 ### E. Frontend: Core Components & Authentication
 
 #### Frontend Setup & Configuration
-- [ ] Setup Next.js project structure berdasarkan Atomic Design methodology (atoms, molecules, organisms, templates, pages)
-  - [ ] Struktur direktori untuk components, hooks, lib, pages, services, store, styles, dan types
-  - [ ] Setup folder struktur untuk atoms (Button, Input, Icon, Typography, etc.)
-  - [ ] Setup folder struktur untuk molecules (Form, Card, Modal, Dropdown, etc.)
-  - [ ] Setup folder struktur untuk organisms (Header, Footer, Sidebar, DataTable, etc.)
-  - [ ] Setup folder struktur untuk templates (AuthLayout, DashboardLayout, etc.)
-  - [ ] Setup folder struktur untuk pages (auth, dashboard, shipments, etc.)
-- [ ] Implementasi basic layout components dengan responsive design
-  - [ ] Implementasi layout components dengan Flexbox dan Grid
-  - [ ] Implementasi container components dengan proper spacing
-- [ ] Konfigurasi routing dengan Next.js dengan dynamic routes
-  - [ ] Implementasi route structure berdasarkan aplikasi flow
-  - [ ] Implementasi dynamic routes untuk resource details
-- [ ] Setup state management dengan Redux Toolkit (slices, createAsyncThunk, selectors)
-  - [ ] Implementasi store configuration dengan proper middleware
-  - [ ] Implementasi slices untuk auth, users, branches, etc.
-  - [ ] Implementasi selectors dengan memoization
-- [ ] Implementasi Redux Persist untuk offline state persistence
-  - [ ] Konfigurasi storage adapter dan serialization
-  - [ ] Implementasi selective persistence untuk sensitive data
-- [ ] Implementasi API service layer dengan Axios dan interceptors
-  - [ ] Implementasi base API client dengan proper configuration
-  - [ ] Implementasi request/response interceptors
-  - [ ] Implementasi error handling dan retry logic
-- [ ] Implementasi React Query untuk server state management
-  - [ ] Setup query client dengan proper defaults
-  - [ ] Implementasi query hooks untuk data fetching
-  - [ ] Implementasi mutation hooks untuk data updates
-- [ ] Konfigurasi styling dengan Tailwind CSS dan custom color palette
-  - [ ] Setup Tailwind configuration dengan custom theme
-  - [ ] Implementasi design tokens untuk colors, spacing, typography
+- [x] Setup Next.js project structure berdasarkan Atomic Design methodology (atoms, molecules, organisms, templates, pages)
+  - [x] Struktur direktori untuk components, hooks, lib, pages, services, store, styles, dan types
+  - [x] Setup folder struktur untuk atoms (Button, Input, Icon, Typography, etc.)
+  - [x] Setup folder struktur untuk molecules (Form, Card, Modal, Dropdown, etc.)
+  - [x] Setup folder struktur untuk organisms (Header, Footer, Sidebar, DataTable, etc.)
+  - [x] Setup folder struktur untuk templates (AuthLayout, DashboardLayout, etc.)
+  - [x] Setup folder struktur untuk pages (auth, dashboard, shipments, etc.)
+- [x] Implementasi basic layout components dengan responsive design
+  - [x] Implementasi layout components dengan Flexbox dan Grid
+  - [x] Implementasi container components dengan proper spacing
+- [x] Konfigurasi routing dengan Next.js dengan dynamic routes
+  - [x] Implementasi route structure berdasarkan aplikasi flow
+  - [x] Implementasi dynamic routes untuk resource details
+- [x] Setup state management dengan Redux Toolkit (slices, createAsyncThunk, selectors)
+  - [x] Implementasi store configuration dengan proper middleware
+  - [x] Implementasi slices untuk auth, users, branches, etc.
+  - [x] Implementasi selectors dengan memoization
+- [x] Implementasi Redux Persist untuk offline state persistence
+  - [x] Konfigurasi storage adapter dan serialization
+  - [x] Implementasi selective persistence untuk sensitive data
+- [x] Implementasi API service layer dengan Axios dan interceptors
+  - [x] Implementasi base API client dengan proper configuration
+  - [x] Implementasi request/response interceptors
+  - [x] Implementasi error handling dan retry logic
+- [x] Implementasi React Query untuk server state management
+  - [x] Setup query client dengan proper defaults
+  - [x] Implementasi query hooks untuk data fetching
+  - [x] Implementasi mutation hooks untuk data updates
+- [x] Konfigurasi styling dengan Tailwind CSS dan custom color palette
+  - [x] Setup Tailwind configuration dengan custom theme
+  - [x] Implementasi design tokens untuk colors, spacing, typography
 - [ ] Implementasi Shadcn UI components dengan custom theme
   - [ ] Customization untuk brand colors dan styling
   - [ ] Integration dengan existing component library
-- [ ] Implementasi responsive design foundation dengan mobile-first approach
-  - [ ] Implementasi breakpoints untuk mobile, tablet, desktop
-  - [ ] Implementasi responsive utilities dan helpers
-- [ ] Implementasi dark mode support dengan Tailwind
-  - [ ] Setup color scheme detection dan preference
-  - [ ] Implementasi theme switching functionality
-- [ ] Setup component documentation dengan Storybook
-  - [ ] Configuration untuk component stories
-  - [ ] Documentation untuk component usage dan props
-- [ ] Implementasi accessibility standards (WCAG 2.1 Level AA)
-  - [ ] Implementasi proper semantic HTML
-  - [ ] Implementasi keyboard navigation support
-  - [ ] Implementasi screen reader compatibility
-- [ ] Setup internationalization dengan i18next (Indonesian/English)
-  - [ ] Setup translation files dan namespaces
-  - [ ] Implementasi language switching functionality
-- [ ] Implementasi error boundaries dan fallback UI
-  - [ ] Implementasi global error boundary
-  - [ ] Implementasi component-level error boundaries
-  - [ ] Implementasi error reporting dan logging
-- [ ] Setup performance monitoring dengan Core Web Vitals
-  - [ ] Implementasi performance measurement
-  - [ ] Implementasi reporting dan analytics
+- [x] Implementasi responsive design foundation dengan mobile-first approach
+  - [x] Implementasi breakpoints untuk mobile, tablet, desktop
+  - [x] Implementasi responsive utilities dan helpers
+- [x] Implementasi dark mode support dengan Tailwind
+  - [x] Setup color scheme detection dan preference
+  - [x] Implementasi theme switching functionality
+- [x] Setup component documentation dengan Storybook
+  - [x] Configuration untuk component stories
+  - [x] Documentation untuk component usage dan props
+- [x] Implementasi accessibility standards (WCAG 2.1 Level AA)
+  - [x] Implementasi proper semantic HTML
+  - [x] Implementasi keyboard navigation support
+  - [x] Implementasi screen reader compatibility
+- [x] Setup internationalization dengan i18next (Indonesian/English)
+  - [x] Setup translation files dan namespaces
+  - [x] Implementasi language switching functionality
+- [x] Implementasi error boundaries dan fallback UI
+  - [x] Implementasi global error boundary
+  - [x] Implementasi component-level error boundaries
+  - [x] Implementasi error reporting dan logging
+- [x] Setup performance monitoring dengan Core Web Vitals
+  - [x] Implementasi performance measurement
+  - [x] Implementasi reporting dan analytics
 
 #### Authentication UI
-- [ ] Implementasi login page dengan form validation
-- [ ] Implementasi forgot password flow dengan email verification
-- [ ] Implementasi password reset page dengan password strength indicator
-- [ ] Implementasi session management di client dengan secure storage
-- [ ] Implementasi auth guards untuk protected routes dengan role-based access
-- [ ] Implementasi token refresh handling dengan automatic retry
-- [ ] Implementasi logout functionality dengan proper cleanup
-- [ ] Implementasi profile management page dengan avatar upload
-- [ ] Implementasi password change functionality dengan current password verification
-- [ ] Implementasi account settings dengan preferences
+- [x] Implementasi login page dengan form validation
+- [x] Implementasi forgot password flow dengan email verification
+- [x] Implementasi password reset page dengan password strength indicator
+- [x] Implementasi session management di client dengan secure storage
+- [x] Implementasi auth guards untuk protected routes dengan role-based access
+- [x] Implementasi token refresh handling dengan automatic retry
+- [x] Implementasi logout functionality dengan proper cleanup
+- [x] Implementasi profile management page dengan avatar upload
+- [x] Implementasi password change functionality dengan current password verification
+- [x] Implementasi account settings dengan preferences
 - [ ] Implementasi multi-factor authentication UI (optional)
-- [ ] Implementasi session timeout notification
-- [ ] Implementasi login history view
-- [ ] Implementasi security settings (device management, login alerts)
-- [ ] Unit testing untuk authentication components dengan React Testing Library
-- [ ] Integration testing untuk authentication flows
+- [x] Implementasi session timeout notification
+- [x] Implementasi login history view
+- [x] Implementasi security settings (device management, login alerts)
+- [x] Unit testing untuk authentication components dengan React Testing Library
+- [x] Integration testing untuk authentication flows
 
 #### Master Data UI - Branches & Divisions
 - [ ] Implementasi branch list page dengan filtering, search, dan pagination

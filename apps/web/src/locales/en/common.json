@@ -1,0 +1,79 @@
+{
+  "app": {
+    "name": "Samudra Paket ERP",
+    "tagline": "Streamline Your Logistics Operations"
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "shipments": "Shipments",
+    "pickups": "Pickups",
+    "deliveries": "Deliveries",
+    "customers": "Customers",
+    "reports": "Reports",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Sign out"
+  },
+  "auth": {
+    "login": "Sign In",
+    "register": "Sign Up",
+    "forgotPassword": "Forgot Password",
+    "resetPassword": "Reset Password",
+    "loginTitle": "Sign In",
+    "loginSubtitle": "Enter your credentials to access your account",
+    "registerTitle": "Create an Account",
+    "registerSubtitle": "Register to start using Samudra Paket ERP",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Full Name",
+    "companyName": "Company Name",
+    "rememberMe": "Remember me",
+    "agreeToTerms": "I agree to the Terms of Service and Privacy Policy",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "createAccount": "Create Account"
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "pendingPickups": "Pending Pickups",
+    "activeShipments": "Active Shipments",
+    "deliveredToday": "Delivered Today",
+    "issuesReported": "Issues Reported",
+    "recentActivity": "Recent Activity",
+    "upcomingTasks": "Upcoming Tasks",
+    "viewAll": "View all"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "create": "Create",
+    "update": "Update",
+    "submit": "Submit",
+    "reset": "Reset",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "footer": {
+    "copyright": "© {{year}} PT. Sarana Mudah Raya. All rights reserved.",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "contact": "Contact Us"
+  }
+}

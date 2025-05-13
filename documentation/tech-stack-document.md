@@ -11,12 +11,12 @@ This document outlines the technology stack used in the Samudra Paket ERP system
 | Technology | Version | Purpose |
 |------------|---------|----------|
 | Next.js | 15.x | React framework with SSR, SSG, and routing |
-| React | 18.x | UI library for building component-based interfaces |
+| React | 19.x | UI library for building component-based interfaces |
 | JavaScript | ES2022 | Primary programming language for web frontend |
-| Tailwind CSS | 3.x | Utility-first CSS framework for styling |
+| Tailwind CSS | 4.x | Utility-first CSS framework for styling |
 | Shadcn UI | 2.x | Component library built on Tailwind CSS |
 | Redux Toolkit | 2.x | State management for global application state |
-| React Query | 5.x | Data fetching, caching, and server state management |
+| React Query | 3.x | Data fetching, caching, and server state management |
 | React Hook Form | 7.x | Form handling and validation |
 | Zod | 3.x | Schema validation library |
 | Axios | 1.x | HTTP client for API requests |

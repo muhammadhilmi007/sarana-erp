@@ -1,0 +1,79 @@
+{
+  "app": {
+    "name": "Samudra Paket ERP",
+    "tagline": "Optimalkan Operasi Logistik Anda"
+  },
+  "nav": {
+    "home": "Beranda",
+    "dashboard": "Dasbor",
+    "shipments": "Pengiriman",
+    "pickups": "Penjemputan",
+    "deliveries": "Pengantaran",
+    "customers": "Pelanggan",
+    "reports": "Laporan",
+    "settings": "Pengaturan",
+    "profile": "Profil",
+    "logout": "Keluar"
+  },
+  "auth": {
+    "login": "Masuk",
+    "register": "Daftar",
+    "forgotPassword": "Lupa Kata Sandi",
+    "resetPassword": "Atur Ulang Kata Sandi",
+    "loginTitle": "Masuk",
+    "loginSubtitle": "Masukkan kredensial Anda untuk mengakses akun Anda",
+    "registerTitle": "Buat Akun",
+    "registerSubtitle": "Daftar untuk mulai menggunakan Samudra Paket ERP",
+    "email": "Alamat Email",
+    "password": "Kata Sandi",
+    "confirmPassword": "Konfirmasi Kata Sandi",
+    "name": "Nama Lengkap",
+    "companyName": "Nama Perusahaan",
+    "rememberMe": "Ingat saya",
+    "agreeToTerms": "Saya menyetujui Ketentuan Layanan dan Kebijakan Privasi",
+    "alreadyHaveAccount": "Sudah memiliki akun?",
+    "dontHaveAccount": "Belum memiliki akun?",
+    "signIn": "Masuk",
+    "signUp": "Daftar",
+    "createAccount": "Buat Akun"
+  },
+  "dashboard": {
+    "welcome": "Selamat datang kembali",
+    "pendingPickups": "Penjemputan Tertunda",
+    "activeShipments": "Pengiriman Aktif",
+    "deliveredToday": "Terkirim Hari Ini",
+    "issuesReported": "Masalah Dilaporkan",
+    "recentActivity": "Aktivitas Terbaru",
+    "upcomingTasks": "Tugas Mendatang",
+    "viewAll": "Lihat semua"
+  },
+  "common": {
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "success": "Berhasil",
+    "save": "Simpan",
+    "cancel": "Batal",
+    "delete": "Hapus",
+    "edit": "Edit",
+    "view": "Lihat",
+    "search": "Cari",
+    "filter": "Filter",
+    "sort": "Urutkan",
+    "create": "Buat",
+    "update": "Perbarui",
+    "submit": "Kirim",
+    "reset": "Atur Ulang",
+    "back": "Kembali",
+    "next": "Selanjutnya",
+    "previous": "Sebelumnya",
+    "confirm": "Konfirmasi",
+    "yes": "Ya",
+    "no": "Tidak"
+  },
+  "footer": {
+    "copyright": "© {{year}} PT. Sarana Mudah Raya. Hak Cipta Dilindungi.",
+    "terms": "Ketentuan Layanan",
+    "privacy": "Kebijakan Privasi",
+    "contact": "Hubungi Kami"
+  }
+}
